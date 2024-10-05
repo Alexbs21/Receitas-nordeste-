@@ -1,0 +1,85 @@
+/* Reset de estilo básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFFF00; /* Cor de fundo suave */
+  color: #5a3e2f; /* Cor do texto */
+  line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #e68a00; /* Cor do cabeçalho */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em; /* Tamanho do título */
+  font-family: 'Georgia', serif; /* Fonte serifada */
+}
+
+/* Navegação */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex; /* Navegação horizontal */
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px 0;
+  flex-wrap: wrap; /* Permite que os itens da lista se movam para a próxima linha em telas pequenas */
+}
+
+nav ul li {
+  margin: 0 15px; /* Espaçamento entre itens */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Cor de destaque ao passar o mouse */
+}
+
+/* Container principal */
+.container {
+  width: 100%; /* Largura total */
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo das seções dos estados */
+.state-section {
+  margin-bottom: 50px;
+  border-bottom: 2px solid #e68a00; /* Linha divisória */
+  padding-bottom: 20px;
+}
+
+.state-section h2 {
+  font-size: 2em; /* Tamanho do título das seções */
+  margin-bottom: 20px;
+  color: #3b2a1a; /* Cor do título */
+  font-family: 'Georgia', serif; /* Fonte serifada */
+  border-bottom: 1px solid #c68a00; /* Linha abaixo do título */
+  padding-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo das receitas */
+.recipe {
+  background-color: #fff3e0; /* Fundo suave para as receitas */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin
